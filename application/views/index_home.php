@@ -10,10 +10,9 @@
   <link rel="stylesheet" href="<?php echo base_url()?>assets/css/media-queries.css">    
   <link rel="stylesheet" href="<?php echo base_url()?>assets/css/bootstrap.css">
   <link rel="stylesheet" href="<?php echo base_url()?>assets/assets/css/styles.css">
-  <link rel="stylesheet" href="">
   
   <style>
-.navbar {
+  .navbar {
     height: 60px;
     background-color: #353A40;
     font-family: Arial, Helvetica, sans-serif;
@@ -69,17 +68,20 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="navbar" style="width: 100%">
-            <img src="img/atf-01.png" width="115" \></img>
+            <img src="<?php echo base_url()?>assets/img/atf-01.png" width="115" \></img>
           <div class="navbar">
-            <a class="nav-link" style="text-transform: uppercase; background-color: transparent;" href="#Home"><b>Home</b></a>
-            <a class="nav-link" style="text-transform: uppercase; background-color: transparent;" href="#Introduction"><b>Introduction</b></a>
-            <a class="nav-link" style="text-transform: uppercase; background-color: transparent;" href="#Service"><b>Service</b></a>
+            <a class="nav-link" style="text-transform: uppercase; background-color: transparent;" 
+            href="#Home"><b>Home</b></a>
+            <a class="nav-link" style="text-transform: uppercase; background-color: transparent;" 
+            href="#Introduction"><b>Introduction</b></a>
+            <a class="nav-link" style="text-transform: uppercase; background-color: transparent;" 
+            href="#Service"><b>Service</b></a>
 <div class="dropdown">
 <button onclick="myFunction()" class="dropbtn" style="text-transform: uppercase;"><b>Product</b></button>
   <div id="myDropdown" class="dropdown-content">
     <a href="media.php?hal=produk-lists" style="text-transform: uppercase;"><b>Our Product</b></a>
-    <a href="media.php?hal=carabeli" style="text-transform: uppercase;"><b>How to Buy</b></a>
-    <a href="media.php?hal=cart" style="text-transform: uppercase;"><b>Your Cart</b></a>
+    <a href="<?php echo base_url()?>assets/media.php?hal=carabeli" style="text-transform: uppercase;"><b>How to Buy</b></a>
+    <a href="<?php echo base_url()?>assets/media.php?hal=cart" style="text-transform: uppercase;"><b>Your Cart</b></a>
   </div>
 </div>
 <a class="nav-link" style="text-transform: uppercase; background-color: transparent;" href="#Contact"><b>Contact</b></a>
