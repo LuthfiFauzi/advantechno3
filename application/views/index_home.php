@@ -127,7 +127,7 @@ window.onclick = function(event) {
                 </div>
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/2.jpeg" alt="Second slide" height="630">
+                <img class="d-block w-100" src="assets/img/2.jpg" alt="Second slide" height="630">
                 <div class="carousel-caption d-none d-md-block">
                   <h5 style="color:white">Advanced Technology Facility</h5>
                   <p>.  .  .</p>
@@ -267,8 +267,8 @@ window.onclick = function(event) {
   </div>
 
 </body>
-<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="assets/js/scroll.js"></script>
+<script type="text/javascript" src="<?php echo base_url()?>assets/assets/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url()?>assets/assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url()?>assets/assets/js/scroll.js"></script>
 
 </html>
