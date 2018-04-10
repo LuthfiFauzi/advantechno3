@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="<?php echo base_url()?>assets/assets/css/styles.css">
   
   <style>
-  .navbar {
+.navbar {
     height: 60px;
     background-color: #353A40;
     font-family: Arial, Helvetica, sans-serif;
@@ -70,18 +70,15 @@
     <div class="navbar" style="width: 100%">
             <img src="<?php echo base_url()?>assets/img/atf-01.png" width="115" \></img>
           <div class="navbar">
-            <a class="nav-link" style="text-transform: uppercase; background-color: transparent;" 
-            href="#Home"><b>Home</b></a>
-            <a class="nav-link" style="text-transform: uppercase; background-color: transparent;" 
-            href="#Introduction"><b>Introduction</b></a>
-            <a class="nav-link" style="text-transform: uppercase; background-color: transparent;" 
-            href="#Service"><b>Service</b></a>
+            <a class="nav-link" style="text-transform: uppercase; background-color: transparent;" href="#Home"><b>Home</b></a>
+            <a class="nav-link" style="text-transform: uppercase; background-color: transparent;" href="#Introduction"><b>Introduction</b></a>
+            <a class="nav-link" style="text-transform: uppercase; background-color: transparent;" href="#Service"><b>Service</b></a>
 <div class="dropdown">
 <button onclick="myFunction()" class="dropbtn" style="text-transform: uppercase;"><b>Product</b></button>
   <div id="myDropdown" class="dropdown-content">
-    <a href="media.php?hal=produk-lists" style="text-transform: uppercase;"><b>Our Product</b></a>
-    <a href="<?php echo base_url()?>assets/media.php?hal=carabeli" style="text-transform: uppercase;"><b>How to Buy</b></a>
-    <a href="<?php echo base_url()?>assets/media.php?hal=cart" style="text-transform: uppercase;"><b>Your Cart</b></a>
+    <a href="<?php echo base_url()?>media.php?hal=produk-lists" style="text-transform: uppercase;"><b>Our Product</b></a>
+    <a href="media.php?hal=carabeli" style="text-transform: uppercase;"><b>How to Buy</b></a>
+    <a href="media.php?hal=cart" style="text-transform: uppercase;"><b>Your Cart</b></a>
   </div>
 </div>
 <a class="nav-link" style="text-transform: uppercase; background-color: transparent;" href="#Contact"><b>Contact</b></a>
@@ -127,14 +124,14 @@ window.onclick = function(event) {
                 </div>
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/2.jpg" alt="Second slide" height="630">
+                <img class="d-block w-100" src="<?php echo base_url()?>assets/assets/img/2.jpeg" alt="Second slide" height="630">
                 <div class="carousel-caption d-none d-md-block">
                   <h5 style="color:white">Advanced Technology Facility</h5>
                   <p>.  .  .</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/3.jpg" alt="Third slide" height="630">
+                <img class="d-block w-100" src="<?php echo base_url()?>assets/assets/img/3.jpg" alt="Third slide" height="630">
                 <div class="carousel-caption d-none d-md-block">
                   <h5 style="color:white">Advanced Technology Facility</h5>
                   <p>.  .  .</p>
