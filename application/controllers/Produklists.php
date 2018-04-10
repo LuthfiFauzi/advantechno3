@@ -1,12 +1,14 @@
 <?php
 defined('BASEPATH')OR exit('No direct script access allowed');
 
-class produk extends CI_Controller{
+class Produklists extends CI_Controller{
 	function __construct(){
 		parent::__construct();
 	}
 	public function index(){
 		$this->load->view('produklists');
+		$this->load->database('produklists');
+		
 	}
 }
 ?>
