@@ -76,9 +76,9 @@
 <div class="dropdown">
 <button onclick="myFunction()" class="dropbtn" style="text-transform: uppercase;"><b>Product</b></button>
   <div id="myDropdown" class="dropdown-content">
-    <a href="<?php echo base_url()?>media.php?hal=produk-lists" style="text-transform: uppercase;"><b>Our Product</b></a>
-    <a href="media.php?hal=carabeli" style="text-transform: uppercase;"><b>How to Buy</b></a>
-    <a href="media.php?hal=cart" style="text-transform: uppercase;"><b>Your Cart</b></a>
+    <a href="Media?hal=Produklists" style="text-transform: uppercase;"><b>Our Product</b></a>
+    <a href="Media?hal=Carabeli" style="text-transform: uppercase;"><b>How to Buy</b></a>
+    <a href="Media?hal=Cart" style="text-transform: uppercase;"><b>Your Cart</b></a>
   </div>
 </div>
 <a class="nav-link" style="text-transform: uppercase; background-color: transparent;" href="#Contact"><b>Contact</b></a>
